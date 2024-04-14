@@ -46,7 +46,7 @@ def create_excel(data, output_path):
     df.to_excel(output_path, index=False)
 
 if __name__ == "__main__":
-    input_directory = r'D:\Sample2'  # Update with the correct directory path
+    input_directory = r'Sample2'  
     output_file = 'output.xlsx'
 
     cv_data = process_cv_directory(input_directory)
